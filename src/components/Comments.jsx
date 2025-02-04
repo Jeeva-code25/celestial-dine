@@ -1,7 +1,7 @@
 import React from 'react'
 import CommentCard from './CommentCard'
 import UserImg from '../assets/user.png'
-import { Row } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 
 const COMMENTS = [
     {
@@ -34,7 +34,7 @@ const COMMENTS = [
 ]
 const Comments = () => {
     return (
-        <section className="comments" style={{ padding: '4.5rem' }}>
+        <Container fluid className="comments" style={{ padding: '4.5rem' }}>
             <h1 className="comments-title text-center mb-5" style={{ fontFamily: "Playfair Display" }}>What Our Customers Say</h1>
             <Row className='justify-content-center'>
                 {
@@ -46,7 +46,7 @@ const Comments = () => {
                 }
             </Row>
 
-        </section>
+        </Container>
     )
 }
 

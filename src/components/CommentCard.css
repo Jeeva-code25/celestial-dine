@@ -26,6 +26,11 @@
     overflow: hidden;
 }
 
+.user-img{
+    height: 4rem;
+    width: 4rem;
+}
+
 .user-name{
     font-weight: bold;
     font-size: 0.8em;

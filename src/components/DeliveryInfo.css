@@ -1,6 +1,4 @@
 .delivery-info{
-    display: grid;
-    grid-template-columns: auto auto;
     padding: 4.5rem;
     background-color: #F9F9F7;
     gap: 4rem;
@@ -9,7 +7,7 @@
 
 
 .delivery-title{
-    width: 50%;
+    width: 70%;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;

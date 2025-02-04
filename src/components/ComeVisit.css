@@ -1,12 +1,16 @@
-.come-visit{
-    display: flex;
+.come-visit {
     justify-content: space-between;
     padding: 4.5rem;
     background-color: #F9F9F7;
     gap: 4rem;
 }
 
-.img-box{
+.contact-title {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.img-box {
     position: relative;
     width: 35%;
     height: 25rem;
@@ -17,7 +21,7 @@
     border-radius: 10px;
 }
 
-.content-box{
+.content-box {
     display: flex;
     flex-direction: column;
     width: 55%;
@@ -26,12 +30,12 @@
 
 }
 
-.contact-box{ 
+.contact-box {
     display: flex;
     flex-direction: column;
-    gap: 1rem;   
+    gap: 1rem;
     width: 75%;
-    height: 60%;
+    /* height: 60%; */
     top: 70%;
     left: 50%;
     border-radius: 10px;
@@ -41,32 +45,42 @@
     background-color: #474747;
 }
 
-.item-box{
+.item-box {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.phone, .email, .address{
+.contact-icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+.phone,
+.email,
+.address {
+    display: inline;
     font-size: 0.8em;
     margin: 0;
 }
 
 
-.come-visit-title{
+.come-visit-title {
     width: 70%;
 }
-.info-1{
+
+.info-1 {
     word-spacing: 0.4em;
 
 }
-.info-2{
+
+.info-2 {
     color: #414536;
     word-spacing: 0.4em;
 }
 
-.more-about{
-    width: 20%;
+.more-about {
+    width: 8rem;
     border-radius: 30px;
     outline: none;
     border: #000 0.11rem solid;
@@ -76,7 +90,18 @@
     transition: color .8s;
 }
 
-.more-about:hover{
+.more-about:hover {
     background-color: #000;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .contact-box {
+        top: 50%;
+        left: 40%;
+    }
+    /* .item-box{
+        flex-direction: row;
+        justify-content: center;
+    } */
 }

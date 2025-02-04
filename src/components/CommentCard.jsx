@@ -9,13 +9,13 @@ const CommentCard = ({title, desc, user}) => {
         <p className="comment-desc">{desc}</p>
         <hr />
         <Row className='align-items-center '>
-            <Col md={4}>
-            <Image src={user.img} alt="" className="user-img" rounded fluid/>
+            <Col xs={3}>
+            <Image src={user.img} alt="" className="user-img" fluid />
             </Col>
-            <Col className="user-info " md={8}>
+            <Col xs={6} className="user-info " >
                 <p className="user-name mb-1">{user.name}</p>
                 <p className="user-address mb-0">{user.address}</p>
-            </Col>
+            </Col >
         </Row>
     </Col>
   )

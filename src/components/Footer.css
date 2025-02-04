@@ -37,12 +37,21 @@
     margin: 1rem 0;
 }
 
-.foot-insta .insta-col{
+.insta-col{
     width: fit-content;
     margin: 0;
     padding: 0;
 }
 
+.foot-title{
+    color: #fff;
+}
+
+.foot-insta{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
 .copy{
     margin: 3rem 0rem 0rem 0rem;
     text-align: center;

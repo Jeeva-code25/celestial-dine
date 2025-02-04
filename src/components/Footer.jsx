@@ -12,8 +12,8 @@ import insta_4 from '../assets/insta_4.png'
 import { Col, Container, Image, Row, Stack } from 'react-bootstrap'
 const Footer = () => {
     return (
-        <footer className='footer'>
-            <Row>
+        <footer className='footer '>
+            <Row className='gap-4'>
                 <Col md={4} className='site-info'>
                     <div className="site-name">
                         <img src={LogoWhite} alt="" className="logo" />
@@ -29,7 +29,7 @@ const Footer = () => {
                     </Stack>
                 </Col>
                 <Col md={3}>
-                    <h5 className="foot-h5g-title">Pages</h5>
+                    <h5 className="foot-title">Pages</h5>
                     <a href="#" className="pgs">Menu</a>
                     <a href="#" className="pgs">Contact</a>
                     <a href="#" className="pgs">About</a>

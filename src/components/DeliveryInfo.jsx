@@ -9,8 +9,9 @@ import Cart from '../assets/cart_icon.png'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 const DeliveryInfo = () => {
     return (
-        <section className='delivery-info'>
-            <Container className="delivery-img-box" md={4}>
+        <Container className='delivery-info' fluid>
+            <Row className='gap-4 p-4 justify-content-center align-items-center'>
+            <Col className="delivery-img-box" md={6}>
                 <Row>
                     <Col>
                     <Row className='my-auto align-content-center'>
@@ -27,8 +28,8 @@ const DeliveryInfo = () => {
                     </Col>
                 </Row>
 
-            </Container>
-            <Container md={4} className="delivery-text-box">
+            </Col>
+            <Col md={5} className="delivery-text-box">
                 <h1 className="delivery-title mb-3" style={{ fontFamily: "Playfair Display" }}>Fastest Food Delivery in City.</h1>
                 <p className="delivery-desc">Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop. </p>
                 <div className="info-box my-3">
@@ -45,8 +46,9 @@ const DeliveryInfo = () => {
                     <img src={Cart} alt="icon" className="info-icon" />
                     <p className="info-desc mb-0">Online Services Available</p>
                 </div>
-            </Container>
-        </section>
+            </Col>
+            </Row>
+        </Container>
     )
 }
 

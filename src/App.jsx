@@ -9,20 +9,20 @@ import BookATable from "./components/BookATable";
 
 function App() {
   const location = useLocation();
-  const excludePaths = ['/bookatable'];
+  const excludePaths = ['/celestial-dine/bookatable'];
 
   return (
     <>
       {!excludePaths.includes(location.pathname) && <Navbar/>}
       <Routes>
-        <Route path="/">
+        <Route path="/celestial-dine">
           <Route index element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/celestial-dine/menu" element={<Menu />} />
+          <Route path="/celestial-dine/contact" element={<Contact />} />
+          <Route path="/celestial-dine/about" element={<About />} />
         </Route>
 
-        <Route path="/bookatable">
+        <Route path="/celestial-dine/bookatable">
           <Route index element={<BookATable />} />
         </Route>
       </Routes>

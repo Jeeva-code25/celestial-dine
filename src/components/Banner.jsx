@@ -9,7 +9,7 @@ const Banner = () => {
             <p className="banner-title">Best food for your taste</p>
             <p className="banner-desc">Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
             <div className="btn-row">
-                <button className="banner-book-table" onClick={() => {navigate('/bookatable')}}>Book A Table</button>
+                <button className="banner-book-table" onClick={() => {navigate('/celestial-dine/bookatable')}}>Book A Table</button>
                 <button className="explore-menu">Explore Menu</button>
 
             </div>
