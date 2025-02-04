@@ -35,7 +35,7 @@ const Footer = () => {
                     <a href="#" className="pgs">About</a>
                     <a href="#" className="pgs">Home</a>
                 </Col>
-                <Col md={5}>
+                <Col md={4}>
                     <h5 className="foot-insta">Follow Us On Instagram</h5>
                         <Row className='mt-3'>
                             <Col className='insta-col mb-4'><Image src={insta_1} alt="" className="insta-img" fluid/>
