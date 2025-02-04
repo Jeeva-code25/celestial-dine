@@ -1,0 +1,82 @@
+.come-visit{
+    display: flex;
+    justify-content: space-between;
+    padding: 4.5rem;
+    background-color: #F9F9F7;
+    gap: 4rem;
+}
+
+.img-box{
+    position: relative;
+    width: 35%;
+    height: 25rem;
+    background-image: url('../assets/come_visit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: .5rem;
+    padding-top: 2rem;
+
+}
+
+.contact-box{ 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+    width: 75%;
+    height: 60%;
+    top: 70%;
+    left: 50%;
+    border-radius: 10px;
+    padding: 2rem;
+    position: absolute;
+    color: #fff;
+    background-color: #474747;
+}
+
+.item-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.phone, .email, .address{
+    font-size: 0.8em;
+    margin: 0;
+}
+
+
+.come-visit-title{
+    width: 70%;
+}
+.info-1{
+    word-spacing: 0.4em;
+
+}
+.info-2{
+    color: #414536;
+    word-spacing: 0.4em;
+}
+
+.more-about{
+    width: 20%;
+    border-radius: 30px;
+    outline: none;
+    border: #000 0.11rem solid;
+    padding: 0.8rem;
+    font-size: 0.8em;
+    background-color: transparent;
+    transition: color .8s;
+}
+
+.more-about:hover{
+    background-color: #000;
+    color: #fff;
+}

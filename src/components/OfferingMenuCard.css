@@ -1,0 +1,29 @@
+.offering-menu-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    /* align-items: center; */
+    border-radius: 8px 8px 0 0;
+}
+
+.offering-card-img{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.offering-card-title{
+    text-align: center;
+}
+.offering-card-desc{
+    font-size: 0.8em;
+    display: -webkit-box;
+    line-height: 1.5;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: center;
+    overflow: hidden;
+    color: #414536;
+}

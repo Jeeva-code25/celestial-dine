@@ -1,0 +1,29 @@
+.delivery-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 4.5rem;
+    background-color: #F9F9F7;
+    gap: 4rem;
+    align-items: center;
+}
+
+
+.delivery-title{
+    width: 50%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.delivery-desc{
+    width: 70%;
+    color: #414536;
+    word-spacing: 0.4em;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}

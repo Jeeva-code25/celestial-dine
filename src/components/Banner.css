@@ -1,0 +1,88 @@
+.banner-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: url(../assets/home_bg.png);
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.banner-text-box .btn-row .banner-book-table{
+    border-radius: 30px;
+    margin: 0;
+    outline: none;
+    border: none;
+    padding: 0.8rem;
+    font-size: 0.8em;
+    background-color: #AD343E;
+    color: #fff;
+    transition: color .8s;
+
+}
+
+
+.banner-text-box .explore-menu{
+    border-radius: 30px;
+    outline: none;
+    border: #000 0.11rem solid;
+    padding: 0.8rem;
+    font-size: 0.8em;
+    background-color: transparent;
+    transition: color .8s;
+
+}
+
+.explore-menu:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.banner-text-box{
+    position:absolute;
+    text-align: center;
+    top: 35%;
+
+}
+
+.banner-title{
+    font-size: 5em;
+    font-family: 'Playfair Display';
+    max-width: 550px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 5.1rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner-desc{
+    max-width: 550px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn-row{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+@media (max-width: 768px){
+    .banner-title{
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .banner-text-box{
+        padding: 2rem;
+    }
+}

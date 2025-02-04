@@ -1,0 +1,35 @@
+
+
+.comment-card{
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #F9F9F7;
+}
+
+.comment-title{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #AD343E;
+}
+
+.comment-desc{
+    font-size: 0.8em;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.user-name{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.user-address{
+    font-size: 0.8em;
+}

@@ -1,0 +1,136 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0.5rem 10rem;
+}
+
+nav header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 3rem 0 0;
+    padding: 0;
+    order: 1;
+}
+
+nav header .title{
+    margin: 0;
+    display: inline;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+.top-nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: all ease-out .4s;
+}
+
+nav li{
+    text-decoration: none;
+    margin: 0.7rem;
+}
+
+.nav-item a{
+    transition: padding .5s;
+}
+
+.nav-item{
+    transition: padding .5s;
+}
+/* .nav-item a:hover{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding:0 0.5rem;
+} */
+
+.nav-btn{
+    display: none;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul .clicked{
+    background-color: #AD343E;
+    color: #fff;
+    border-radius: 30px;
+    padding:0 0.5rem;
+}
+
+nav section{
+    display: flex;
+    align-items: center;
+    order: 2;
+}
+
+.book-table{
+    font-size: .8rem;
+    margin-left: 4rem;
+    border-radius: 30px;
+    white-space: nowrap;
+    outline: none;
+    border: #000 0.11rem solid;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8em;
+    background-color: transparent;
+    transition: color .8s;
+
+}
+
+.nav-link-btn{
+    text-decoration: none;
+    color: #000;
+}
+
+.book-table:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.book-table:hover .nav-link-btn{
+    color: #fff;
+}
+
+
+@media (max-width: 768px){
+    .nav-btn{
+        display: inline;
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        order: 1;
+    }
+    .top-nav{
+        position: fixed;
+        flex-direction: column;
+        right: -100%;
+        top: 10%;
+        width: 100%;
+        z-index: 1;
+        padding: 1rem;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    .book-table{
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+
+    nav section .mobile-nav{
+        position: absolute;
+        right: 0;
+    }
+}
